@@ -1,0 +1,81 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600&display=swap");
+@import url("https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.2/css/all.min.css");
+
+.login-background{
+    background-color: #edfffa;
+    height: 100vh;
+
+    .login-container{
+        position: absolute;
+        width: 400px;
+        height: 450px;
+        top: 0;
+        bottom: 0;
+        right: 0;
+        left: 0;
+        margin: auto;
+        border-radius: 10px;
+        background-color: white;
+    }
+    .login-content{
+        padding: 10px;
+
+            .login-text{
+                text-align: center;
+                font-weight: 600;
+                font-size: 24px;
+                padding-top: 10px;
+            }
+            .login-input{
+                margin: 7px 0;
+
+                .custom-input-password{
+                    position: relative;
+
+                    i{
+                        position: absolute;
+                        top: 10px;
+                        right: 5px;
+                        cursor: pointer;
+                    }
+                }
+            }
+            .btn-login{
+                width: 100%;
+                margin: 10px 0;
+                height: 35px;
+                border-radius: 3px;
+                outline: none;
+                color: white;
+                border: none;
+                background-color: #10b981;
+            }
+            .forgot-password{
+                font-size: 15px;
+            }
+            .social-login{
+                display: flex;
+                margin: 10px 0px;
+                text-align: center;
+                justify-content: center;
+                i{
+                    margin: 0 5px;
+                    color: #fff;
+                    border-radius: 50%;
+                }
+                .fa-facebook-f{
+                    padding: 5px 8px;
+                    background-color: #3b5998;
+                }
+                .fa-google-plus-g{
+                    padding: 5px 4px;
+                    background-color: #db4a39;
+                }
+                .fa-linkedin-in{
+                    padding: 5px 6px;
+                    background-color: #0e76a8;
+                }
+            }
+    }
+}
+

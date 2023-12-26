@@ -1,1 +1,3 @@
-export { default as adminService } from './adminService';
+/** @format */
+
+export { default as adminService } from "./adminService";
